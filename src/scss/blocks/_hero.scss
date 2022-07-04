@@ -1,0 +1,90 @@
+.hero {
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 25px;
+  }
+
+  &__content {
+    max-width: 412px;
+  }
+
+  &__title {
+    color: $colorDark;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 66px;
+    letter-spacing: -0.05em;
+    margin-bottom: 16px;
+  }
+
+  &__subtitle {
+    margin-bottom: 32px;
+  }
+
+  &__img {
+    position: relative;
+    right: -30px;
+  }
+
+  &__form {
+    margin-bottom: 30px;
+  }
+
+  &__form-control {
+    margin-bottom: 16px;
+  }
+
+  &__form-input {
+    width: 100%;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    padding: 14px 22px;
+    background: transparent;
+    border: 1px solid #DFE8FA;
+    border-radius: 15px;
+    font-family: inherit;
+  }
+
+  &__form-submit {
+    cursor: pointer;
+    box-shadow: 0 16px 40px rgba(255, 188, 166, 0.33);
+  }
+
+  &__form-text {
+    max-width: 200px;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 700;
+    margin-left: 30px;
+    line-height: 146%;
+    vertical-align: middle;
+    color: #BBC0C7;
+  }
+
+  &__reviews {
+    display: flex;
+    align-items: center;
+    column-gap: 15px;
+    margin-bottom: 15px;
+  }
+
+  &__reviews-img {
+    position: relative;
+    left: -6px;
+  }
+
+  &__reviews-text {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 27px;
+    color: $colorSilver;
+  }
+
+  &__companies {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

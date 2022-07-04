@@ -35,6 +35,21 @@ body {
     }
 }
 
+.section {
+    padding: 20px 0;
+
+    &__title {
+
+    }
+
+    &__subtitle {
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 32px;
+        color: $colorSilver;
+    }
+}
+
 .button {
     font-size: 18px;
     line-height: 27px;
@@ -64,6 +79,10 @@ body {
             background-color: $colorRed;
         }
     }
+}
+
+.text-red {
+    color: $colorRed;
 }
 
 // Animations
